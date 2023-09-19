@@ -1,11 +1,18 @@
+/* Century Gothic Regular (MAIN)
+Livvic Bold
+Livvic Medium
+Livvic Semibold
+JohnStown Demo Regular
+*/
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	/* font-family: 'DM Sans', sans-serif; */
-	background: rgba(17, 24, 39, 1);
+	font-family: 'Nanum Gothic', sans-serif;
+	background: #334B35;
 }
 
 h1,
@@ -29,3 +36,44 @@ h6 {
 .link {
 	text-decoration: none;
 }
+
+/* ==========HEADER========== */
+.header-nav {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: start;
+	margin: 40px 0 40px 0;
+}
+
+.nav-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 50px;
+	margin: 0 0 0 455px;
+}
+
+.nav-menu-link {
+	color: #FFF;
+	font-size: 18px;
+	font-weight: 400;
+	border-bottom: 3px solid transparent;
+}
+
+.nav-menu-link:hover {
+	font-weight: 700;
+	border-bottom: 2px solid #F7C35F;
+}
+
+.nav-menu-link:active {
+	border-bottom: 2px solid #F7C35F;
+}
+
+/* ==========HEADER========== */
+
+/* ==========MAIN========== */
+/* ==========MAIN========== */
+
+/* ==========FOOTER========== */
+/* ==========FOOTER========== */
