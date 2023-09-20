@@ -37,6 +37,18 @@ h6 {
 	text-decoration: none;
 }
 
+.btn {
+	font-size: 14px;
+	font-weight: 500;
+	/* line-height: normal; */
+	padding: 25px 50px;
+	border: none;
+	border-radius: 20px;
+	background: #F7C35F;
+	color: #1A1A1A;
+	width: 218px;
+}
+
 /* ==========HEADER========== */
 .header-nav {
 	display: flex;
@@ -73,6 +85,39 @@ h6 {
 /* ==========HEADER========== */
 
 /* ==========MAIN========== */
+
+/* **********Hero********** */
+.hero {
+	background-image: url(/images/hero.png);
+	padding: 0 0 235px 0;
+}
+
+.hero-logo {
+	margin: 180px 0 15px 0;
+}
+
+.hero-title {
+	font-family: 'Livvic', sans-serif;
+	width: 800px;
+	font-size: 70px;
+	font-weight: 700;
+	margin: 0 0 10px 0;
+}
+
+.hero-title-orange {
+	color: #F7C35F;
+}
+
+.hero-text {
+	color: #FFFFFF;
+	width: 690px;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0 0 55px 0;
+}
+
+/* **********Hero********** */
+
 /* ==========MAIN========== */
 
 /* ==========FOOTER========== */
