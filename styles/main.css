@@ -122,3 +122,30 @@ h6 {
 
 /* ==========FOOTER========== */
 /* ==========FOOTER========== */
+
+@media (max-width: 1458px) {
+	.wrapper {
+		max-width: 769px;
+	}
+}
+
+/* TABLET */
+@media (max-width: 768px) {
+	.wrapper {
+		max-width: 481px;
+	}
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+	.wrapper {
+		max-width: 321px;
+	}
+}
+
+/* MINI MOBILE */
+@media (max-width: 320px){
+	.wrapper {
+		max-width: auto;
+	}
+}
