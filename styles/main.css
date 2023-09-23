@@ -13,6 +13,7 @@ JohnStown Demo Regular
 
 body {
 	font-family: 'Nanum Gothic', sans-serif;
+	color: #FFFFFF;
 	background: #334B35;
 }
 
@@ -114,13 +115,118 @@ h6 {
 }
 
 .hero-text {
-	color: #FFFFFF;
 	font-size: 20px;
 	font-weight: 400;
 	margin: 0 0 55px 0;
 }
 
 /* **********Hero********** */
+
+/* **********Our introduction********** */
+.our-in-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 900px;
+}
+
+.our-intr-logo {
+	margin: 100px 0 0 0;
+}
+
+.our-intr-content {
+	margin: 120px 0 0 80px;
+}
+
+.oi-image {
+	z-index: -1;
+}
+
+.image-bl {
+	width: 20px;
+	height: 258px;
+	border-radius: 5px 0px 0px 5px;
+	background: #F7C35F;
+	position: relative;
+	bottom: 280px;
+	right: 20px;
+}
+
+.image-block {
+	width: 428px;
+	height: 140px;
+	border-radius: 10px;
+	background: #6D8C54;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	gap: 50px;
+	padding: 35px;
+	position: relative;
+	bottom: 340px;
+	left: 60px;
+}
+
+.block-text-num {
+	font-family: 'Mistral', sans-serif;
+	font-size: 40px;
+	font-weight: 400;
+	margin: 0 0 10px 0;
+}
+
+.image-block-text {
+	font-family: 'Livvic', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.our-int {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.our-introduction-title {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0 0 20px 0;
+}
+
+.our-introduction-text-1 {
+	font-family: 'Livvic', sans-serif;
+	width: 524px;
+	font-size: 50px;
+	font-weight: 700;
+	margin: 0 0 55px 0;
+}
+
+.our-introduction-text-2 {
+	color: #F7C35F;
+	font-family: 'Livvic', sans-serif;
+	font-size: 30px;
+	font-weight: 500;
+	margin: 0 0 20px 0;
+}
+
+.our-introduction-text-3 {
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0 0 55px 0;
+}
+
+.our-introduction-list {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.oi-list-item {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+/* **********Our introduction********** */
 
 /* ==========MAIN========== */
 
