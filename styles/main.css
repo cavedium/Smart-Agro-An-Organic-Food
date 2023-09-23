@@ -268,6 +268,37 @@ h6 {
 	.hero-btn {
 		text-align: center;
 	}
+
+	.our-in-wrapper {
+		flex-direction: column;
+		height: auto;
+	}
+
+	.our-intr-logo {
+		margin: 100px auto 0 auto;
+		height: 800px;
+	}
+
+	.our-intr-content {
+		margin: 0 auto 100px auto;
+	}
+
+	.our-introduction-title,
+	.our-introduction-text-1,
+	.our-introduction-text-2,
+	.our-introduction-text-3 {
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.our-introduction-list {
+		flex-direction: row;
+	}
+
+	.oi-list-item {
+		text-align: center;
+	}
 }
 
 /* TABLET */
@@ -276,6 +307,32 @@ h6 {
 		max-width: 481px;
 	}
 
+	.our-in-wrapper,
+	.our-intr-logo,
+	.our-intr-content,
+	.our-introduction-title,
+	.our-introduction-text-1,
+	.our-introduction-text-2,
+	.our-introduction-text-3 {
+		max-width: 481px;
+	}
+
+	.oi-image {
+		width: 481px;
+	}
+
+	.image-block {
+		padding: 15px;
+		left: 25px;
+	}
+
+	.our-introduction-list {
+		flex-direction: column;
+	}
+
+	.oi-list-item {
+		justify-content: center;
+	}
 }
 
 /* MOBILE */
