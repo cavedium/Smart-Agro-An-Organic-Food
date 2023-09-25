@@ -228,6 +228,60 @@ h6 {
 
 /* **********Our introduction********** */
 
+/* **********Popular Foods and Vegetables********** */
+.popular-food-title {
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 80px 0 20px 0;
+}
+
+.popular-food-text {
+	font-family: 'Livvic', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 0 100px 0;
+}
+
+.food-list {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	gap: 60px;
+	margin: 0 0 190px 0;
+}
+
+.food-list-item {
+	width: 183px;
+	height: 177px;
+	padding: 33px 0 0 0;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-shrink: 0;
+	border-radius: 15px;
+	background: rgba(217, 217, 217, 0.10);
+	backdrop-filter: blur(25px);
+}
+
+.food-list-item:hover {
+	background: #F7C35F;
+	backdrop-filter: blur(25px);
+	transition: background-color 1s;
+}
+
+.food-text {
+	font-family: 'Livvic', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 20px 0 0 0;
+}
+
+
+/* **********Popular Foods and Vegetables********** */
+
 /* ==========MAIN========== */
 
 /* ==========FOOTER========== */
