@@ -42,13 +42,23 @@ h6 {
 .btn {
 	font-size: 14px;
 	font-weight: 500;
-	/* line-height: normal; */
 	padding: 25px 50px;
 	border: none;
 	border-radius: 20px;
 	background: #F7C35F;
 	color: #1A1A1A;
 	width: 218px;
+}
+
+.section-titles {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.section-text {
+	font-family: 'Livvic', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
 }
 
 /* ==========HEADER========== */
@@ -187,16 +197,11 @@ h6 {
 }
 
 .our-introduction-title {
-	font-size: 20px;
-	font-weight: 400;
 	margin: 0 0 20px 0;
 }
 
 .our-introduction-text-1 {
-	font-family: 'Livvic', sans-serif;
 	width: 524px;
-	font-size: 50px;
-	font-weight: 700;
 	margin: 0 0 55px 0;
 }
 
@@ -230,17 +235,12 @@ h6 {
 
 /* **********Popular Foods and Vegetables********** */
 .popular-food-title {
-	font-size: 20px;
-	font-weight: 400;
 	text-transform: uppercase;
 	text-align: center;
 	margin: 80px 0 20px 0;
 }
 
 .popular-food-text {
-	font-family: 'Livvic', sans-serif;
-	font-size: 50px;
-	font-weight: 700;
 	text-align: center;
 	margin: 0 0 100px 0;
 }
@@ -314,16 +314,11 @@ h6 {
 
 /* **********Recently completed work********** */
 .completed-work-title {
-	font-size: 20px;
-	font-weight: 400;
 	text-align: center;
 	margin: 130px 0 0 0;
 }
 
 .completed-work-text {
-	font-family: 'Livvic', sans-serif;
-	font-size: 50px;
-	font-weight: 700;
 	text-align: center;
 	margin: 20px 0 80px 0;
 }
@@ -344,6 +339,55 @@ h6 {
 }
 
 /* **********Recently completed work********** */
+
+/* **********Our Testimonials********** */
+.our-testimonials-title {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.our-testimonials-text {
+	text-align: center;
+	margin: 20px 0 100px 0;
+}
+
+.client-review {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	gap: 85px;
+	padding: 0 125px;
+	margin: 0 0 160px 0;
+}
+
+.clien-logo-fon {
+	position: absolute;
+	z-index: 2;
+	left: 400px;
+}
+
+.client-text-1 {
+	color: rgba(255, 255, 255, 0.80);
+	font-size: 18px;
+	font-weight: 400;
+	margin: 50px 0 40px 0;
+	width: 765px;
+}
+
+.client-text-2 {
+	font-family: 'Livvic', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.client-text-2 > span {
+	color: #ACACAC;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/* **********Our Testimonials********** */
 
 
 /* ==========MAIN========== */
