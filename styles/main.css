@@ -285,7 +285,7 @@ h6 {
 /* **********Agriculture********** */
 .agriculture {
 	background-image: url(/images/agriculture-bg.png);
-	height: 700px;
+	height: 694px;
 	padding: 285px 0 0 0;
 }
 
@@ -311,6 +311,40 @@ h6 {
 }
 
 /* **********Agriculture********** */
+
+/* **********Recently completed work********** */
+.completed-work-title {
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	margin: 130px 0 0 0;
+}
+
+.completed-work-text {
+	font-family: 'Livvic', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	margin: 20px 0 80px 0;
+}
+
+.our-projects-list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 160px 0;
+}
+
+.items-bg {
+	border-radius: 10px;
+}
+
+.items-bg:hover {
+	border: 10px solid #F7C35F;
+	transition: border 1s;
+}
+
+/* **********Recently completed work********** */
+
 
 /* ==========MAIN========== */
 
