@@ -247,7 +247,7 @@ h6 {
 
 .food-list {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-direction: row;
 	gap: 60px;
 	margin: 0 0 190px 0;
@@ -281,6 +281,36 @@ h6 {
 
 
 /* **********Popular Foods and Vegetables********** */
+
+/* **********Agriculture********** */
+.agriculture {
+	background-image: url(/images/agriculture-bg.png);
+	height: 700px;
+	padding: 285px 0 0 0;
+}
+
+.agriculture-title {
+	font-family: 'Livvic', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	width: 610px;
+}
+
+.agri-wrapper {
+	display: flex;
+	flex-direction: row;
+	gap: 410px;
+}
+
+.agri-video-text {
+	color: #F7C35F;
+	font-family: 'Mistral', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	margin: 0 0 0 85px;
+}
+
+/* **********Agriculture********** */
 
 /* ==========MAIN========== */
 
